@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/top_rl"
+    android:layout_height="match_parent">
+
+
+    <com.example.shidianxiaoping.media.IjkVideoView
+        android:layout_width="match_parent"
+        android:padding="1dp"
+        android:layout_height="match_parent"
+        android:id="@+id/vitamio" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:layout_width="30dp"
+        android:id="@+id/ddd"
+        android:background="@color/img_full_opaque"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:background="@drawable/zidonghuoqu8"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:id="@+id/wangluo"
+        android:visibility="gone"
+        android:text="网络已断开连接,请检查网络"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
